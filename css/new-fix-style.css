@@ -438,11 +438,11 @@ video{
 	#player_wrapper{
 		margin: 0px;
 		padding: 0px;
-		height:calc(100% - 50px);
+		height:calc(100% - 35px);
 		width:100%;
-		position: relative;
+		position: relative;		
 		background:#304D30;
-	}
+	}	
 	#channels{
 		margin: 0px;
 		padding: 0px;
@@ -481,7 +481,7 @@ video{
 		position: relative;
 		padding: 0px;
 		width: 100%;
-		height:calc(100% - 50px);
+		height:calc(100% - 35px);
 		background:#304D30;
 	}
 	#channels{
