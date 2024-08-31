@@ -428,10 +428,18 @@ video{
 		display:flex;
 		
 	}
-	#player_wrapper{
+	#wrap_player_wrapper{
 		margin: 0px;
 		padding: 0px;
 		flex-grow:2; 
+		position: relative;
+		background:#304D30;
+	}
+	#player_wrapper{
+		margin: 0px;
+		padding: 0px;
+		height:calc(100% - 50px);
+		width:100%;
 		position: relative;
 		background:#304D30;
 	}
@@ -460,12 +468,20 @@ video{
 		display:flex;
 		flex-direction: column;
 	}
-	#player_wrapper{
+	#wrap_player_wrapper{
 		margin: 0px;
 		position: relative;
 		padding: 0px;
 		width: 100vw;
 		height:calc(100vw/1.6);
+		background:#304D30;
+	}
+	#player_wrapper{
+		margin: 0px;
+		position: relative;
+		padding: 0px;
+		width: 100%;
+		height:calc(100% - 50px);
 		background:#304D30;
 	}
 	#channels{
